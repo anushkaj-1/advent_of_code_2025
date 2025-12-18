@@ -9,6 +9,7 @@ The password is the number of times the pointer lands on 0 throughout these turn
 # Dial starts at 50
 turns = []
 
+
 with open("day1input.txt", "r") as file:
     for line in file:
         turns.append(line)
